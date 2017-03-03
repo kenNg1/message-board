@@ -1,0 +1,5 @@
+define("ember-bootstrap/templates/components/bs-form/element/layout/horizontal/checkbox", ["exports"], function (exports) {
+  "use strict";
+
+  exports["default"] = Ember.HTMLBars.template({ "id": "hjF2dkV3", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"dynamic-attr\",\"class\",[\"concat\",[[\"unknown\",[\"horizontalInputGridClass\"]],\" \",[\"unknown\",[\"horizontalInputOffsetGridClass\"]]]]],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"checkbox\"],[\"flush-element\"],[\"text\",\"\\n\"],[\"block\",[\"component\"],[[\"get\",[\"labelComponent\"]]],null,0],[\"text\",\"  \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"append\",[\"helper\",[\"component\"],[[\"get\",[\"errorsComponent\"]]],null],false],[\"text\",\"\\n\"],[\"close-element\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[{\"statements\":[[\"text\",\"      \"],[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[]}],\"hasPartials\":false}", "meta": { "moduleName": "modules/ember-bootstrap/templates/components/bs-form/element/layout/horizontal/checkbox.hbs" } });
+});

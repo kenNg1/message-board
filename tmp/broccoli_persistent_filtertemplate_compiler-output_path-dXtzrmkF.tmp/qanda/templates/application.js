@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"HrI2Fgl7","block":"{\"statements\":[[\"text\",\"\\n\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"qanda/templates/application.hbs"}});

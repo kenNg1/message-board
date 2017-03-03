@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"RENshaXm","block":"{\"statements\":[[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"modules/ember-bootstrap/templates/components/bs-modal/header/title.hbs"}});

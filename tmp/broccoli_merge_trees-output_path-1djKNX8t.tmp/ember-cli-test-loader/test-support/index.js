@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/broccoli_merge_trees-input_base_path-mJxQcPhs.tmp/1/ember-cli-test-loader/test-support/index.js

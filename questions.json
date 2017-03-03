@@ -1,0 +1,18 @@
+{ "questions": [{
+      "heading": "What is the future of web development in your opinion?",
+      "author":"Ken",
+      "notes":"There are a lot of new technologies competing against each other, which ones are the best one to learn?"
+    }, {
+      "heading": "My husband and I want to give our daughter an allowance of $1,000 a week. Is this too much money?",
+      "author":"Rich Mother",
+      "notes":"She's 13 years old. We are very wealthy and a lot of her friends get an allowance of over $5,000 a week so she's been very upset and been kind of ungrateful. My husband wants to give it to her. I grew up with no money with a single mother so I know the meaning of money. What should I do?"
+    }, {
+      "heading": "What are the three interesting problems that startups can solve—and secure VC money?",
+      "author":"Zoho",
+      "notes":""
+    }],
+    "answers": [{
+      "author": "Mr T",
+      "content": "Use google"
+      }]
+  }

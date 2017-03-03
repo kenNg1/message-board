@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/funnel-input_base_path-4X8LMd40.tmp/components/ember-wormhole.js

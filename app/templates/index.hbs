@@ -1,0 +1,14 @@
+<h1> The Message Board </h1>
+
+<ul>
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+
+
+{{new-question saveQuestion="saveQuestion"}}
+
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}<br>
+{{#link-to 'about'}}Click here to find out more about us.{{/link-to}}

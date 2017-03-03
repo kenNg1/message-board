@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/webpack_writer-output_path-YdopPQFD.tmp/firebase.amd.js

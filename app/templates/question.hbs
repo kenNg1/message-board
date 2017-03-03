@@ -1,0 +1,8 @@
+<h2>More information about {{model.author}}'s question</h2>
+
+{{update-question question=model update="update"}}
+
+{{new-answer saveAnswer="saveAnswer" question=model}}
+<!-- notice question = model above! -->
+
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}
