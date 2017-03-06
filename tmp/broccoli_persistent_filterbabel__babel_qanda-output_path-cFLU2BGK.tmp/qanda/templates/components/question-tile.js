@@ -1,3 +1,0 @@
-define("qanda/templates/components/question-tile", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "dJIHGnbr", "block": "{\"statements\":[[\"block\",[\"link-to\"],[\"question\",[\"get\",[\"question\",\"id\"]]],null,0],[\"text\",\"\\n\"],[\"open-element\",\"h4\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"question\",\"author\"]],false],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"open-element\",\"h3\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"question\",\"heading\"]],false],[\"close-element\"]],\"locals\":[]}],\"hasPartials\":false}", "meta": { "moduleName": "qanda/templates/components/question-tile.hbs" } });
-});

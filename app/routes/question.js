@@ -9,9 +9,11 @@ export default Ember.Route.extend({
             question.destroyRecord();
             this.transitionTo('index');
         },
+        destroyAnswer(answer) {
+          answer.destroyRecord();
+        },
         update(question, params) {
             question.save();
-            this.transitionTo('index');
         },
         saveAnswer(params){
           var newAnswer = this.store.createRecord('answer',params);
@@ -20,6 +22,7 @@ export default Ember.Route.extend({
           newAnswer.save().then(function() {
             return question.save();
           });
+          this.transitionTo('question', question);
         }
     }
 });

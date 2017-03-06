@@ -1,11 +1,13 @@
-<h3>{{question.heading}}</h3>
-<h5>{{question.author}}</h5>
-  <p>{{question.notes}}</p>
+<div class="panel" style="padding: 10px;border:1px solid black; border-radius:5px">
+<h3>{{question.heading}}</h3><button class="delete" {{action 'delete' question}}>Delete Question </button>
+<h5>posted by {{question.author}}</h5>
+  <p>"{{question.notes}}"</p>
+</div>
 
-<button {{action 'delete' question}}>Delete Question </button>
-
+<div class="panel" style="background-color: white; padding: 10px;"><br>
 <ul>
-  {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
+</div>

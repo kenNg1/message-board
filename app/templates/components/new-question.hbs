@@ -1,24 +1,36 @@
+<!-- <div id="popup1" class="overlay">
+<div class="popup">
+  <h2>Here i am</h2>
+  <a class="close" href="#">&times;</a>
+  <div class="content">
+    Thank to pop me out of that button, but now i'm done so you can close this window.
+  </div>
+</div>
+</div> -->
+
 {{#if addNewQuestion}}
+  <div class="popup">
   <h1>New Question </h1>
   <div>
     <form>
       <div class="form-group">
       <label for="heading">Question</label>
-      {{input value=heading id="heading"}}
+      {{input value=heading id="heading" size="45"}}
       </div>
 
       <div class="form-group">
       <label for="author">Posted by</label>
-      {{input value=author id="author"}}
+      {{input value=author id="author" size="45"}}
       </div>
 
       <div class="form-group">
       <label for="notes">More details</label>
-      {{input value=notes id="notes"}}
+      {{input value=notes id="notes" size="50" height="45"}}
       </div>
+
       <button {{action 'saveQuestion'}}>Save</button>
     </form>
   </div>
-{{else}}
-  <button {{action 'questionFormShow'}}> New Question </button>
+</div>
 {{/if}}
+  <div id="center"><button class="small-logo center animated infinite bounce" {{action 'questionFormShow'}}> I have a new question! </button></div>

@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/funnel-input_base_path-zA402nOr.tmp/torii-adapters/firebase.js

@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/funnel-input_base_path-wRQYMJDy.tmp/adapters/json-api.js

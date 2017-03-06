@@ -1,9 +1,9 @@
 {{#if addNewAnswer}}
-  <h1>New Answer</h1>
-    <div>
+    <div class="panel center">
+      <h1>New Answer</h1>
       <form>
         <div class="form-group">
-          <label for="author">Author</label>
+          <label for="author">Posted by</label>
           {{input value=author id="author"}}
         </div>
         <div class="form-group">
@@ -14,5 +14,5 @@
       </form>
     </div>
   {{else}}
-    <button {{action 'answerFormShow'}}>New Answer</button>
+    <button id="newAnswer" {{action 'answerFormShow'}}>New Answer</button>
   {{/if}}

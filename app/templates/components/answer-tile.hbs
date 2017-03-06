@@ -1,1 +1,19 @@
-<li>{{answer.author}}:{{answer.content}}</li>
+<li>
+  {{answer.content}} by {{answer.author}}
+  <button class=delete {{action 'delete' answer}}>Delete Answer </button>
+
+{{answer.up}}
+{{#unless answer.votedup}}
+<i id="notvotedup" {{action 'thumbs_up' answer}} class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+  {{else}}
+  <i id="votedup" {{action 'undo_thumbs_up' answer}} class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+  {{/unless}}
+
+  {{#unless answer.voteddown}}
+    <i id="notvoteddown" {{action 'thumbs_down' answer}} class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+    {{else}}
+    <i id="voteddown" {{action 'undo_thumbs_down' answer}} class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+    {{/unless}}
+    {{answer.down}}
+
+</li>

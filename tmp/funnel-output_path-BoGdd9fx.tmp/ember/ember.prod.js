@@ -1,0 +1,1 @@
+/Users/kenng/message-board/tmp/funnel-input_base_path-52sOjLpe.tmp/ember.prod.js
